@@ -29,14 +29,16 @@
             DISPLAY "Enter the second number: ".
             ACCEPT SECOND-NUMBER.
 
+            PERFORM THE-RESULTS.
+
+            STOP RUN.
+
        THE-RESULTS.
 
             PERFORM EXECUTE-SUM.
             PERFORM EXECUTE-SUBTRACTION.
             PERFORM EXECUTE-MULTIPLICATION.
             PERFORM EXECUTE-DIVISION.
-
-            STOP RUN.
 
        EXECUTE-SUM.
             COMPUTE THE-SUM = FIRST-NUMBER + SECOND-NUMBER.
