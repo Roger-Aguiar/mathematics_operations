@@ -21,6 +21,12 @@
 
        MAIN-PROCEDURE.
 
+            PERFORM GET-INPUT-DATA.
+            PERFORM EXECUTE-OPERATIONS.
+
+            STOP RUN.
+
+       GET-INPUT-DATA.
             DISPLAY "The program makes the 4 math basic operations".
 
             DISPLAY "Enter the first number: ".
@@ -28,10 +34,6 @@
 
             DISPLAY "Enter the second number: ".
             ACCEPT SECOND-NUMBER.
-
-            PERFORM EXECUTE-OPERATIONS.
-
-            STOP RUN.
 
        EXECUTE-OPERATIONS.
 
