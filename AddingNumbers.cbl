@@ -29,11 +29,11 @@
             DISPLAY "Enter the second number: ".
             ACCEPT SECOND-NUMBER.
 
-            PERFORM THE-RESULTS.
+            PERFORM EXECUTE-OPERATIONS.
 
             STOP RUN.
 
-       THE-RESULTS.
+       EXECUTE-OPERATIONS.
 
             PERFORM EXECUTE-SUM.
             PERFORM DISPLAY-SUM.
